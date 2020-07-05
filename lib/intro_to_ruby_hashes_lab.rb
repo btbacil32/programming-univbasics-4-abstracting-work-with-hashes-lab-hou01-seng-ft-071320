@@ -7,10 +7,10 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if greetings[howdy]
-    greetings[howdy] += 1
+  if hash[key]
+    hash[key] += 1
     else
-      greetings[howdy] = 1
+      hash[key] = 1
   end
-  greetings
+  hash
 end
